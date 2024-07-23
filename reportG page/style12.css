@@ -1,0 +1,50 @@
+#MG{
+    background-color: blue;
+    color: wheat;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+#HC{
+    background-color:orangered;
+    color: wheat;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+#AG{
+    background-color:chartreuse;
+    color: wheat;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+#MG:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#AG:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#HC:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+#move{
+    margin-top: 20%;
+    margin-left: 10%;
+}
