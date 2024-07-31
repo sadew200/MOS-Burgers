@@ -1,6 +1,12 @@
+body{
+    background-image: url(../img/cartBg.jpg);
+    background-size: cover;
+}
+
 #search{
-    margin-top: 70px;
-    margin-left: 40%;
+    position: absolute;
+    top: 70px;
+    left: 40%;
 }
 
 #SEinput{
@@ -38,3 +44,32 @@
     font-family: "Pacifico", cursive;
     
 }
+
+#tag{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    font-weight: 900;
+    left: 50px;
+    top: 140px;
+    color: blue;
+    text-decoration: underline red ;
+}
+
+#c{
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: 900;
+    
+}
+
+#contain{
+    background-color: aliceblue;
+    margin-top: 300px;
+}
+
+#line{
+    background-color: orange;
+    height: 10px;
+}
+

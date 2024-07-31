@@ -63,6 +63,7 @@ document.getElementById("take").onclick=()=>{
     doc.text("MOS@gmail.com",150,28);
     doc.text("www.MosBurgers.com",150,44);
     doc.line(10, 50, 200, 50);
+    doc.setTextColor(255, 0, 0); 
     doc.text("Bill issued for :",15,60);
     doc.text("Customer Name : "+Cname ,30,80);
     doc.text("Customer Phone Number : "+Cpno ,30,95);
@@ -126,8 +127,8 @@ if(countOr<orderN ){
         localStorage.removeItem("orderPriceAr");
 
         localStorage.setItem("orderIdAr",JSON.stringify(arOrID01));
-        localStorage.setItem("orderItemsIdAr",JSON.stringify(arOrID01));
-        localStorage.setItem("orderPriceIdAr",JSON.stringify(arOrID01));
+        localStorage.setItem("orderItemsAr",JSON.stringify(arItems01));
+        localStorage.setItem("orderPriceAr",JSON.stringify(arPrice01));
         ++countOr
         localStorage.removeItem("countOr")
         localStorage.setItem("countOr",countOr);
